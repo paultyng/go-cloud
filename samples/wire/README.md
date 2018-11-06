@@ -371,7 +371,7 @@ func InitializeEvent(phrase string) (Event, error) {
 Wire helpfully tells us that we have an unused provider:
 
 ``` shell
-/Users/enocom/go/src/github.com/google/go-cloud/samples/wire/wire.go:24:1:
+$GOPATH/src/github.com/google/go-cloud/samples/wire/wire.go:24:1:
 inject InitializeEvent: unused provider "NewEventNumber"
 wire: generate failed
 ```
